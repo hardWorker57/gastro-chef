@@ -1,0 +1,41 @@
+.About-wrapper {
+    margin-top: -12em;
+}
+.about__container {
+    max-width: 85%;
+    margin-left: auto;
+}
+.article {
+    max-width: 30em;
+}
+.article__title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.about__blocks {
+    display: flex;
+    align-items: flex-end;
+}
+.about__blocks_third {
+    display: flex;
+    gap: 1em;
+}
+.about__blocks .article {
+    margin-bottom: 2em;
+}
+.about__blocks_second {
+    margin: 4em 0;
+}
+.about__blocks_second img {
+    max-width: 100%;
+}
+.article__contact {
+    display: flex;
+    gap: 1em;
+    padding-left: 1em;
+}
+.custom_article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}

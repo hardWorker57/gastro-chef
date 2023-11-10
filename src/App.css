@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+:root {
+  --prime-color: #64D370;
+  --white-text: #F5FAFF;
+  --custom-black: #020202;
+  --grey: #DEE6EE;
+  --focus: #3D9646;
+  --red: #F87676;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* max-width: 100%; */
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+.header {
+  overflow-x: hidden;
+  min-height: 1200px;
+  position: relative;
+}
+/* @media (max-width: 1300px) {
+  body {
+    font-size: 12px;
+  }
+} */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:focus {
+  color: var(--focus);
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 70%;
+  margin-inline: auto;
+}
+.container__custom {
+  max-width: 80%;
+  margin-inline: auto;
+  position: relative;
+}
+.bold_text {
+  font-weight: bold;
+}
+.button {
+  font-family: 'Comfortaa', cursive;
+  background-color: var(--prime-color);
+  color: var(--white-text);
+  border-radius: 40px;
+  padding: 0.8em 3em;
+  text-align: center;
+  transition: 0.8s ease;
+  border: 2px solid rgba(255, 0, 0, 0);
+  /* box-shadow: 0px 0px 40px 0px #5656564D; */
+}
+.button:hover {
+  background-color: #ffffff;
+  color: var(--prime-color);
+  border: 2px solid var(--prime-color);
+}
+.btn__inactive {
+  color: var(--prime-color);
+  background-color: #ffffff;
+  border: 2px solid var(--prime-color);
+}
+.btn__inactive:hover {
+  color: var(--white-text);
+  background-color: var(--prime-color);
+}
+.large__button {
+  font-size: 1.4em;
+  padding-inline: 5.2em;
+}
+.inactive__btn {
+  background-color: var(--grey);
+  color: var(--custom-black);
+}
+.card__content {
+  text-align: center;
+  font-size: 0.8em;
+}
+.big__title {
+  font-size: 1.6em;
+}
+.block__title__custom {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.invisible {
+  color: #ffffff;
+}
+.section__title {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+.center__text {
+  text-align: center;
+}
+.nav__number {
+  color: var(--prime-color);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.number__interact:hover {
+  background-color: var(--prime-color);
+  color: var(--white-text);
+}
+.faq__item {
+  border-radius: 160px;
+  padding: 0.4em 1.2em;
+  box-shadow: 0px 0px 20px 0px #56565633;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+.order__input {
+  background-color: var(--grey);
+  border: none;
+  padding: 0.6em 1.2em;
+  color: var(--custom-black);
+  margin: 0.6em 0;
+  border-radius: 190px;
+  width: 25em;
+}
+.order__input::placeholder {
+  color: var(--custom-black);
+}
+.order__input:focus {
+  outline: none;
+}
+.green__circle__wrap {
+  color: var(--prime-color);
+  background-color: var(--grey);
+  border-radius: 190px;
+  height: 14px;
+  width: 14px;
+  padding: 0.4em;
+}
+.green__circle {
+  background-color: var(--prime-color);
+  height: 100%;
+  border-radius: 190px;
+}

@@ -1,0 +1,20 @@
+.advantages {
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 20;
+    background-color: #ffffffaf;
+    border-radius: 40px;
+}
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.6em 1.4em;
+}
+.advantages__elips {
+    position: absolute;
+    top: 0;
+    left: -20em;
+}
