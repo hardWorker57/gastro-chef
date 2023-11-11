@@ -49,7 +49,7 @@ const About = () => {
               <div className="contact__icon"><IcomoonReact iconSet={iconSet} size={20} color='white' icon="facebook" className='contact__icon__item' /></div>
               - Я в социальных сетях</p>
           </div>
-          <div className="about_block"><img src={food_picture} alt="" width={800} /></div>
+          <div className="about_block"><img src={food_picture} alt="food-picture" width={800} /></div>
         </div>
       </div>
     </div>
